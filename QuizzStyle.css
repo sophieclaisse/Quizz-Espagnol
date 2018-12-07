@@ -23,19 +23,23 @@ h1{
 }
 
 .answer{
-    margin-left: 5vw;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.5rem;
     margin-bottom: 10px;
     background-color: red;
     width:70vw;
+    height: 10vh;
     color: yellow;
     border-radius: 10px;
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 .titre{
     color: red;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     font-size: 2rem;
     border-radius: 10px;
 }
