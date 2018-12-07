@@ -78,7 +78,6 @@ $(".answer").click(function()
     }
 
     if(i==10) {
-
         $("#modal").slideDown(3000);
         $("#score").text("Vous avez " + score + " / 10!")
     }
