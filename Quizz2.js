@@ -40,7 +40,7 @@ $(".answer").click(function()
     $('#recapitulatif').append('<div id="recap'+i+'"></div>');
     $('#recap'+i).append('<div id="Q'+i+'"></div><div id="R'+i+'"></div><div id="BR'+i+'"></div>' );
     $('#Q'+i).text(Tab[i].question);
-    $('#R'+i).text("Vous avez répondu:" + Tab[i].repOK);
+    $('#R'+i).text("Vous avez répondu:" + choixU);
 
 
     if (i<=10){
