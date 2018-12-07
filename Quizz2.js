@@ -60,26 +60,30 @@ $(".answer").click(function()
 
         }
 
-
-    }
-
-    //INCREMENTATION DE I
+        //INCREMENTATION DE I
         i++;
+        console.log(i);
 
-       // CHANGEMENT DE QUESTION
+
+        // CHANGEMENT DE QUESTION
+        if (i<10){
         $("#intitule").text(Tab[i].question);
         $("#choixM1").text(Tab[i].choix1);
         $("#choixM2").text(Tab[i].choix2);
         $("#choixM3").text(Tab[i].choix3);
 
+        }
 
 
-
-    if(i===9) {
-
-       $("#modal").slideDown(3000);
-       $("#score").text("Vous avez " + score + " / 10!")
     }
+
+    if(i==10) {
+
+        $("#modal").slideDown(3000);
+        $("#score").text("Vous avez " + score + " / 10!")
+    }
+
+
 
 
 });
